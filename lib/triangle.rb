@@ -26,10 +26,10 @@ class Triangle
       if @all_sides.length.uniq == 1
         return :equilateral
       elsif @all_sides.length.uniq == 2
-      # :isosceles
-        # two side lengths are equal
-      # :scalene
-        # no equal sides
+        return :isosceles
+      else
+        return :scalene
+      end
     end
   end
   
