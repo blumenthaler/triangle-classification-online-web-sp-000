@@ -7,5 +7,9 @@ class Triangle
     @side_3 = side_3
   end
   
+  def kind
+    # returns its type as a symbol:
+      # :equilateral, :isosceles, or :scalene
+  end
   
 end
