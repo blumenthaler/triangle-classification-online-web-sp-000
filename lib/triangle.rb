@@ -11,6 +11,8 @@ class Triangle
     # returns its type as a symbol:
       # :equilateral
         # all side lengths are equal
+      if side_1 == side_2 && side_2 = side_3
+        type = :equilateral
       # :isosceles
         # two side lengths are equal
       # :scalene
