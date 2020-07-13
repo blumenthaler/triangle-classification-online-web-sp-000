@@ -24,6 +24,7 @@ class Triangle
   def kind
     if valid?
       if @all_sides.length.uniq == 1
+        return :equilateral
     # returns its type as a symbol:
       # :equilateral
         # all side lengths are equal
