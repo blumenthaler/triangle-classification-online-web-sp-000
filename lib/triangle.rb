@@ -11,8 +11,10 @@ class Triangle
     # returns its type as a symbol:
       # :equilateral
         # all side lengths are equal
-      # :isosceles, or 
-        # :scalene
+      # :isosceles
+        # two side lengths are equal
+      # :scalene
+        # no equal sides
   end
   
   
