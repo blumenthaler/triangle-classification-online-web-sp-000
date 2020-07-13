@@ -33,6 +33,7 @@ class Triangle
         # two side lengths are equal
       # :scalene
         # no equal sides
+    end
   end
   
   
