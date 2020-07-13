@@ -12,4 +12,9 @@ class Triangle
       # :equilateral, :isosceles, or :scalene
   end
   
+  
+  
+  class TriangleError < StandardError
+    # triangle error code
+  end
 end
