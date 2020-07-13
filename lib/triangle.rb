@@ -13,7 +13,7 @@ class Triangle
     sum_one_three = @triangle_sides[0] + @triangle_sides[2]
     sum_two_three = @triangle_sides[1] + @triangle_sides[2]
     
-    if (@all_sides.none? {|something| something <= 0 } )
+    if (@all_sides.none? {|side| side <= 0})
   end
   
   
