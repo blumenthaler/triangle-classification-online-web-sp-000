@@ -9,7 +9,10 @@ class Triangle
   
   def kind
     # returns its type as a symbol:
-      # :equilateral, :isosceles, or :scalene
+      # :equilateral
+        # all side lengths are equal
+      # :isosceles, or 
+        # :scalene
   end
   
   
