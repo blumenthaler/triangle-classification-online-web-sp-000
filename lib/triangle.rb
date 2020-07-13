@@ -30,6 +30,8 @@ class Triangle
       else
         return :scalene
       end
+    else 
+      return TriangleError
     end
   end
   
