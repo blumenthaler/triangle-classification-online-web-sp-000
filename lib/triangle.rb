@@ -23,7 +23,7 @@ class Triangle
   
   def kind
     if valid?
-      
+      if 
     # returns its type as a symbol:
       # :equilateral
         # all side lengths are equal
