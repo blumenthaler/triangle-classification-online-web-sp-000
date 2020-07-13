@@ -25,11 +25,7 @@ class Triangle
     if valid?
       if @all_sides.length.uniq == 1
         return :equilateral
-    # returns its type as a symbol:
-      # :equilateral
-        # all side lengths are equal
-      if side_1 == side_2 && side_2 = side_3
-        type = :equilateral
+      elsif @all_sides.length.uniq == 2
       # :isosceles
         # two side lengths are equal
       # :scalene
